@@ -1,0 +1,20 @@
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+}
+
+.imagem {
+    border: 2px solid #333; 
+    overflow: hidden; 
+}
+
+.imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.vertical {
+    grid-row: span 2; 
+}

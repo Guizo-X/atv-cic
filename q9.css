@@ -1,0 +1,48 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    background-color: rgb(146, 38, 196);
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+    border: 2px solid black;
+
+}
+
+.elemento {
+    margin: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .elemento {
+        flex-basis: 100%; 
+    }
+}
+
+.ver {
+    background-color: red;
+    border: 4px solid darkred;
+}
+
+.azul{
+    background-color: blue;
+    border: 4px solid darkblue;
+}
+
+.verde {
+    background-color: green;
+    border: 4px solid darkgreen;
+}
