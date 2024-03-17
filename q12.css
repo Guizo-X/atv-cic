@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    margin: 0 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.column1 {
+    background-color: #ffd700;
+}
+
+.column2 {
+    background-color: #87ceeb; 
+}
+
+.column3 {
+    background-color: #ff69b4; 
+}
+
+.imagem-redimensionada {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
